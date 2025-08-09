@@ -1,0 +1,14 @@
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\bin\Debug\net8.0\CalculatorApp.exe
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\bin\Debug\net8.0\CalculatorApp.deps.json
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\bin\Debug\net8.0\CalculatorApp.runtimeconfig.json
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\bin\Debug\net8.0\CalculatorApp.dll
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\bin\Debug\net8.0\CalculatorApp.pdb
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\obj\Debug\net8.0\CalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\obj\Debug\net8.0\CalculatorApp.AssemblyInfoInputs.cache
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\obj\Debug\net8.0\CalculatorApp.AssemblyInfo.cs
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\obj\Debug\net8.0\CalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\obj\Debug\net8.0\CalculatorApp.dll
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\obj\Debug\net8.0\refint\CalculatorApp.dll
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\obj\Debug\net8.0\CalculatorApp.pdb
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\obj\Debug\net8.0\CalculatorApp.genruntimeconfig.cache
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\obj\Debug\net8.0\ref\CalculatorApp.dll
