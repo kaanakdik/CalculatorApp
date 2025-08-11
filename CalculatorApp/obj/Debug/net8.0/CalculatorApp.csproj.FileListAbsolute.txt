@@ -12,3 +12,4 @@ C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\ob
 C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\obj\Debug\net8.0\CalculatorApp.pdb
 C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\obj\Debug\net8.0\CalculatorApp.genruntimeconfig.cache
 C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\obj\Debug\net8.0\ref\CalculatorApp.dll
+C:\Users\Dc\Documents\CI-CD-dersi-icin-dotnet-Projelerim\gecici\CalculatorApp\obj\Debug\net8.0\CalculatorApp.sourcelink.json
