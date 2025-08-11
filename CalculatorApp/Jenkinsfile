@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "calcapp-image-automate"
-        CONTAINER_NAME = "calcapp-container-automate"
+        IMAGE_NAME = "mydotnetapp"
+        CONTAINER_NAME = "dotnetapp-container"
     }
 
     stages {
@@ -13,15 +13,9 @@ pipeline {
             }
         }
 
-        stage('Build .NET App') {
-            steps {
-                sh 'dotnet publish -c Release -o out'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t ${IMAGE_NAME}:latest CalculatorApp/Dockerfile .'
+                sh 'docker build -t ${IMAGE_NAME}:latest .'
             }
         }
 
