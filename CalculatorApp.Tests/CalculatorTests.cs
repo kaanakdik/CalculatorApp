@@ -7,7 +7,7 @@ public class CalculatorTests
     public void Add_Works()
     {
         var calc = new Calculator();
-        Assert.Equal(5, calc.Add(3, 2));
+        Assert.Equal(12, calc.Add(3, 2, 7));
     }
 
     [Fact]
