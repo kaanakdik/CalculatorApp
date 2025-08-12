@@ -27,6 +27,7 @@ pipeline {
             steps {
                 script {
                     sh """
+                    mkdir -p logs
                     docker rm -f ${CONTAINER_NAME} || true
                     docker run -d --name ${CONTAINER_NAME} ${IMAGE_NAME} tail -f /dev/null
                     """
