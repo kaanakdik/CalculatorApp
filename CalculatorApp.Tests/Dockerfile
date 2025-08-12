@@ -2,3 +2,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0
 
 WORKDIR /app
 COPY . .
+
+# CMD ["dotnet", "test", "--logger:trx;LogFileName=test_results.trx", "--results-directory=logs"]
+
+CMD ["dotnet", "test", "--logger:trx;LogFileName=test_results.trx", "--results-directory=logs"]
