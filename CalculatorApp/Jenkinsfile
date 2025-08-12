@@ -1,0 +1,37 @@
+pipeline {
+    agent any
+
+    environment {
+        IMAGE_NAME = "calcapp-image-automate"
+        CONTAINER_NAME = "calcapp-container-automate"
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git url: 'https://github.com/kaanakdik/CalculatorApp.git'
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    sh """
+                    docker build -t ${IMAGE_NAME} -f CalculatorApp/Dockerfile .
+                    """
+                }
+            }
+        }
+
+        stage('Run Container in Background') {
+            steps {
+                script {
+                    sh """
+                    docker rm -f ${CONTAINER_NAME} || true
+                    docker run -d --name ${CONTAINER_NAME} ${IMAGE_NAME} tail -f /dev/null
+                    """
+                }
+            }
+        }
+    }
+}
